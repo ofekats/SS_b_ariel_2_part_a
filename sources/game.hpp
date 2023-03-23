@@ -5,7 +5,7 @@ namespace ariel{
     class Game{
     public:
         Game(); //defult constructor
-        Game(Player p1, Player p2); //constructor
+        Game(Player p_1, Player p_2); //constructor
         void playTurn(); 
         void printLastTurn(); // print the last turn stats
         void playAll(); //playes the game untill the end
@@ -16,7 +16,8 @@ namespace ariel{
     private:
         Player p1_;
         Player p2_;
-
+        // int num_of_drow_;
+        // int num_of_rounds_;
     };
 }
 

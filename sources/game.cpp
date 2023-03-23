@@ -3,14 +3,12 @@ using namespace ariel;
 
 Game::Game() //defult constructor
 {
-    this->p1_=Player("d1");
-    this->p2_=Player("d2");
+
 }
 
-Game::Game(Player p1, Player p2) //constructor
+Game::Game(Player p_1, Player p_2) //constructor
 {
-    this->p1_=p1;
-    this->p1_=p2;
+
 }
 
 void Game::playTurn()

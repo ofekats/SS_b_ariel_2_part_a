@@ -1,8 +1,8 @@
 #pragma once
-// #ifdef PLAYER_H
-// #define PLAYER_H
+
 #include <string>
-// using namespace ariel;
+#include <stack>
+#include "card.hpp"
 
 namespace ariel{
     class Player{
@@ -13,9 +13,9 @@ namespace ariel{
         int cardesTaken(); //return the amount of cards this player has won
     private:
         std::string name_;
+        // int num_of_win_cards_;
+        // int size_of_stack_;
+        // std::stack<card> player_stack_;
+        // int num_of_win_round_;
     };
 }
-
-
-
-// #endif
